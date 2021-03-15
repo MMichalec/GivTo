@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "391797568212",
+    "project_id": "givto-d6873",
+    "storage_bucket": "givto-d6873.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391797568212:android:aed886c76418c33e03c141",
+        "android_client_info": {
+          "package_name": "com.michalec.givto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391797568212-96r9gnah6qg5kmor3dkr3n8ispf14bq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8sKkVB6ER8Zn6V9PHJjIQ8z7zS4yjj2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391797568212-96r9gnah6qg5kmor3dkr3n8ispf14bq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
