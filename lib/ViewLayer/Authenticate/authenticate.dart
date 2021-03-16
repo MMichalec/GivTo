@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:givto/ViewLayer/Authenticate/register.dart';
 import 'package:givto/ViewLayer/Authenticate/sing_in.dart';
 
     class Authenticate extends StatefulWidget {
@@ -7,10 +8,18 @@ import 'package:givto/ViewLayer/Authenticate/sing_in.dart';
     }
 
     class _AuthenticateState extends State<Authenticate> {
+
+      bool showSignIn = true;
+      void toggleView() {
+        setState(() => showSignIn = !showSignIn);
+      }
+
       @override
       Widget build(BuildContext context) {
-        return Container(
-          child: SingIn(),
-        );
+        if(showSignIn){
+          return SingIn(toggleView: toggleView);
+        }else {
+          return Register(toggleView: toggleView);
+        }
       }
     }
