@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:givto/ViewLayer/Authenticate/sing_in.dart';
 
     class Authenticate extends StatefulWidget {
       @override
@@ -9,7 +10,7 @@ import 'package:flutter/material.dart';
       @override
       Widget build(BuildContext context) {
         return Container(
-          child: Text('authenticate')
+          child: SingIn(),
         );
       }
     }
